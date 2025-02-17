@@ -32,7 +32,12 @@ function Footer() {
                 </div>
                 <div className="footer-row">
                     <div className="footer-column full-width mt-3">
-                        <p>&copy; {new Date().getFullYear()} Your Company. All Rights Reserved.</p>
+                         <p>&copy; {new Date().getFullYear()} Developed By: <a href="https://github.com/zeeshanahmad53"
+                        style={{
+                            textDecoration:"none",
+                        }}
+                        target='blank'
+                        > Zeeshan Ahmad</a>.</p>
                     </div>
                 </div>
             </div>
